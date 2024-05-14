@@ -259,16 +259,58 @@ body {
     position: relative;
 }
 
-.footer .section .sns {
-    position: absolute;
-    top: 0;
-    right: 0;
-}
-
-.f_menu > ul {
+.footer .section .f_menu > ul {
     display: flex;
     gap: 100px;
 }
 
-.f_menu > ul > li > a {}
+.footer .section .f_menu > ul > li > a {
+    font-size: 14px;
+    font-weight: 700;
+    display: block;
+    padding: 10px;
+}
+
+.footer .section .f_menu > ul > li ul a {
+    font-size: 13px;
+    display: block;
+    padding: 10px;
+    color: #ddd;
+}
+
+.footer .section .f_menu > ul > li ul a:hover {
+    text-decoration: underline;
+}
+
+.footer .section .copyright {
+    font-size: 12px;
+    color: #ddd;
+    margin-top: 70px;
+}
+
+.footer .section .sns {
+    position: absolute;
+    top: 70px;
+    right: 0;
+}
+
+.footer .section .sns {
+    display: flex;
+    gap: 20px;
+}
+
+.footer .section .sns a {
+    display: block;
+}
+
+.footer .section .sns a i {
+    width: 30px;
+    height: 30px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+    color: #111;
+}
 
